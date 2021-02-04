@@ -1,0 +1,19 @@
+#watever{
+    width:85.8%;
+    margin:auto;
+    
+    
+}
+.news{
+    text-align: center;
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  padding: 50px 30px;
+}
+.test{
+  display: none;
+}
+
+.testli a :hover.test{
+  display: block;
+}

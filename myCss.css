@@ -1,0 +1,39 @@
+*
+{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    background-image: url(stana.jpg);
+    background-size: cover;
+    background-position: center;
+    
+    font-family: sans-serif;
+}
+.mebu-bar{
+    background: rgb(0, 100, 0);
+    text-align: center;
+}
+.mebu-bar ul{
+    display: inline-flex;
+    list-style: none;
+    color: #fff;
+}
+.mebu-bar ul li{
+    width: 120px;
+    margin: 15px;
+    padding: 15px;
+}
+.mebu-bar ul li a{
+    text-decoration: none;
+    color: #fff;
+}
+.active, .mebu-bar ul li a:hover{
+    background: #2bab0d;
+    border-radius: 3px;
+
+
+
+    
+}
