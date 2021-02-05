@@ -176,10 +176,23 @@ section {
 }
 
 #primary-nav .active > a,
-#primary-nav li > a:hover,
+
 #primary-nav li.selected > a {
   color: #4883ff;
+  
+
 }
+#primary-nav li a:hover{
+  color: #4883ff;
+  
+}
+#primary-nav .fa{
+  margin-right: 8px;
+}
+.blue-button .fa{
+  margin-right: 8px;
+}
+
 
 #unactive {
   color: white;
