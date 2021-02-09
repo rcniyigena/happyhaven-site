@@ -1,29 +1,48 @@
 #watever{
-    width:85.8%;
-    margin:auto;
-    
-    
+  width:85.8%;
+  margin:auto;
+ 
+  
+  
 }
 .news{
-    text-align: center;
-  border: 1px solid #ddd;
-  border-radius: 10px;
-  padding: 50px 30px;
+  text-align: center;
+border: 1px solid #ddd;
+border-radius: 10px;
+padding: 50px 30px;
 }
 .test{
-  display: none;
+display: none;
 }
 
 .testli a :hover.test{
-  display: block;
+display: block;
 }
 .sub-menu-1{
-  display: none;
+display: none;
+z-index: 1;
 }
-.menu-1 ul:hover .sub-menu-1{
-  display: block;
-  position: absolute;
-  background: rgb(0,0, 100);
-  margin-top: 15px;
-  margin-left: -15px;
+.sub-menu-2{
+display: none;
 }
+.hover-me:hover .sub-menu-2{
+display: block;
+position: absolute;
+background: rgb(0, 0, 100);
+margin-top: -34px;
+margin-left: 130px;
+
+}
+
+
+
+
+#primary-nav li:hover .sub-menu-1{
+display: block;
+position: absolute;
+background: rgb(0, 0, 100);
+margin-top: 0px;
+margin-left: -60px;
+
+}
+
