@@ -317,7 +317,7 @@ h1, h2, h3 {
      font-size: 14px;
 }
  .our-link ul li a:hover{
-     color: #b0b435;
+     color: #0e8dcd;
 }
  .our-link ul li:last-child{
      border: none;
@@ -579,7 +579,7 @@ h1, h2, h3 {
      color: #b0b435;
 }
  nav.navbar.bootsnav ul.nav li > a:hover{
-     color: #b0b435;
+     color: #0e8dcd;
 }
  nav.navbar.bootsnav ul.nav li.megamenu-fw > a:hover{
      color: #b0b435;
@@ -958,7 +958,7 @@ h1, h2, h3 {
      display: inline-block;
 }
  .filter-button-group button{
-     background: #b0b435;
+     background: #0e8dcd;
      color: #ffffff;
      border: none;
      cursor: pointer;
